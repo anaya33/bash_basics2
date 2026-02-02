@@ -33,3 +33,13 @@ read height
 echo ""
 pixelTotal=$(( $width * $height ))
 echo "Your display has ${pixelTotal} pixels." 
+
+#calculations for area of a rectangle
+
+echo "Enter length of rectangle:"
+read length
+echo "Enter width of rectangle:"
+read rectWidth
+
+area=$(( length * rectWidth ))
+echo "The area of your rectangle is $area"
