@@ -33,3 +33,10 @@ read height
 echo ""
 pixelTotal=$(( $width * $height ))
 echo "Your display has ${pixelTotal} pixels." 
+
+# area of a circle
+echo "Enter radius of circle:"
+read radius
+
+circleArea=$(( 3 * radius * radius ))
+echo "The area of your circle is approximately $circleArea"
