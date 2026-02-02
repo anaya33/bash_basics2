@@ -34,8 +34,7 @@ echo ""
 pixelTotal=$(( $width * $height ))
 echo "Your display has ${pixelTotal} pixels." 
 
-#calculations for area of a rectangle
-
+# Let's calculate area of a rectangle
 echo "Enter length of rectangle:"
 read length
 echo "Enter width of rectangle:"
@@ -43,3 +42,11 @@ read rectWidth
 
 area=$(( length * rectWidth ))
 echo "The area of your rectangle is $area"
+
+# Let's also calculate area of a circle
+echo "Enter radius of circle:"
+read radius
+
+# Using simple approximation: area = 3 * radius * radius
+circleArea=$(( 3 * radius * radius ))
+echo "The area of your circle is approximately $circleArea"
